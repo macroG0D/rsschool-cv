@@ -4,11 +4,11 @@
 
 ### Contacts
 
-[Linkedin]https://www.linkedin.cn/in/tonyem/
-[e-mail]mailto:tonyrhesus@gmail.com
-[telegram]https://t.me/tonyem
-[FaceBook]https://www.facebook.com/tony.yemelyanov/
-[instagram]https://www.instagram.com/tony.yem/
+- [Linkedin](https://www.linkedin.cn/in/tonyem/)
+- [e-mail](mailto:tonyrhesus@gmail.com)
+- [telegram](https://t.me/tonyem)
+- [FaceBook](https://www.facebook.com/tony.yemelyanov/)
+- [instagram](https://www.instagram.com/tony.yem/)
 
 
 ## Summary
@@ -22,23 +22,17 @@ Self-fulfillment is very important for me and therefore my goal is to reach a hi
 
 ## Skills
 
-### common:
-
-- git
-
-### languages:
+### Main
 
 - JavaScript
 - Html/CSS
 - Python
-- SQL
-
-### frameworks & Libraries
-
 - React
 - Flask
+- SQL
+- git
 
-### Additional skills
+### Additional
 
 - UX UI Design (Senior)
 
@@ -47,18 +41,18 @@ Self-fulfillment is very important for me and therefore my goal is to reach a hi
 
 My latest and the most complicated project was done within the Harvard Univarsity CS50 course final project:
 Web App "FREEZME" — Common food manager in which i've implemented many front & back-end features and used database(sqlite), Python with flask Framework, JavaScript, HTML and CSS.
-[Check on Github]https://github.com/macroG0D/FREEZME_APP
+[Check on Github](https://github.com/macroG0D/FREEZME_APP)
 
 ### Portfolio
 
-[Code]https://github.com/macroG0D/
-[Design]https://www.behance.net/tony_yemelyanov
+[Development](https://github.com/macroG0D/)
+[UX UI Design](https://www.behance.net/tony_yemelyanov)
 
 
 
 ## Education
 
-- Codeacademy
+- CodeAcademy
 - SoloLearn
 - CS50
 - RS School (on the way…)
@@ -75,5 +69,5 @@ Web App "FREEZME" — Common food manager in which i've implemented many front &
 
 I am the founder and author of the YEM Academy educational project where I train novice UX UI designers in the profession and improve their knowledge of web abilities and technologies
 
-[Youtube]https://youtube.com/yemdigital
-[Website]https://academy.yem.digital/
+[Youtube](https://youtube.com/yemdigital)
+[Website](https://academy.yem.digital/)
