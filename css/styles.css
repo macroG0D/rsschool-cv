@@ -1,0 +1,41 @@
+:root {
+  --mt25: all .25s ease-in-out;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 100vw;
+  /* margin: auto; */
+  /* padding: 120px 60px; */
+}
+
+@font-face {
+  font-family: "plain-bold";
+  src: url(../fonts/Plain-Bold.woff2) format("woff2");
+}
+
+
+
+
+
+h1 { 
+  font-family: "plain-bold", Arial, sans-serif;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -5px;
+  color: #fff;
+}
+
+.black {
+  background-color: #000;
+}
+
+.main-screen {
+  width: 1024px;
+  margin: auto;
+  padding: 120px 60px;
+}
