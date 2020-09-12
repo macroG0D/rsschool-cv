@@ -2,40 +2,227 @@
   --mt25: all .25s ease-in-out;
 }
 
-
-* {
-  box-sizing: border-box;
-}
-
-section {
-  width: 100vw;
-  /* margin: auto; */
-  /* padding: 120px 60px; */
-}
-
 @font-face {
   font-family: "plain-bold";
   src: url(../fonts/Plain-Bold.woff2) format("woff2");
 }
 
+@font-face {
+  font-family: "plain-medium";
+  src: url(../fonts/Plain-Medium.woff2) format("woff2");
+}
 
+@font-face {
+  font-family: "plain-regular";
+  src: url(../fonts/Plain-Regular.woff2) format("woff2");
+}
 
+@font-face {
+  font-family: "plain-light";
+  src: url(../fonts/Plain-Light.woff2) format("woff2");
+}
 
+html {  font-family: "plain-regular", arial, sans-serif;  }
+
+* { box-sizing: border-box; }
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: var(--mt25);
+}
+
+a:hover { color: rgb(75,75,75); }
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+section {
+  margin: auto;
+  padding: 0 60px;
+  max-width: 1024px;
+}
+
+header {
+  margin: auto;
+  padding: 30px 60px;
+  display: flex;
+  max-width: 1024px;
+  justify-content: space-between;
+}
+
+header ul { display: flex;  }
+
+header ul li {
+  margin-left: 12px;
+  text-align: right;
+}
+
+header .logo img {  width: 60px;  }
+
+.main-screen {  margin-bottom: 160px; }
 
 h1 { 
   font-family: "plain-bold", Arial, sans-serif;
   font-size: 96px;
   line-height: 100%;
   letter-spacing: -5px;
-  color: #fff;
+  color: #000;
 }
 
-.black {
-  background-color: #000;
+h2 {
+  margin: 0;
+  font-family: "plain-medium", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
 }
 
-.main-screen {
-  width: 1024px;
+.main-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.name {
+  font-family: "plain-bold", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.descr {
+  margin: 0 auto;
+  width: 384px;
+  font-family: "plain-light", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.socials ul {
+  margin: 0;
+  display: flex;
+}
+
+.socials ul li {  margin-left: 9px; }
+
+.about {  padding-bottom: 120px;  } 
+
+.main-about {
+  font-family: "plain-regular", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.main-image {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.main-image img{  width: 100%;  }
+
+.main-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+  font-family: "plain-regular", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.main-text p {  max-width: 48%; }
+
+.skillset {
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillset .skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.big-list-items {
+  font-family: "plain-regular", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.skillset .skills-list ul li{ margin: 5px auto; }
+
+.skillset .img-vert { max-width: 48%; }
+
+.skillset .img-vert img { max-width: 100%;  }
+
+.experience .row {
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience .side-p { width: 48%; }
+
+.experience .descr {  width: 48%; }
+
+.experience .slider {
+  margin-bottom: 120px;
+  display: flex;
+  width: 100%;
+
+}
+
+.experience .slider .slide-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.education {
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.education .edlist {  width: 48%; }
+
+.education .edlist ul { margin-top: 0;  }
+
+.education .edlist ul li{
+  margin: 5px auto;
+  font-size: 36px;
+}
+
+.education .edlist ul li .li-add{
+  margin: 0 0 0 10px;
+  padding: 0;
+  font-family: "plain-bold", Arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+footer {
   margin: auto;
-  padding: 120px 60px;
+  padding: 80px 60px 120px;
+  display: flex;
+  width: 1024px;
+}
+
+footer .footer-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer .footer-info .logo-img { text-align: center; }
+
+footer .footer-info .logo-img p {
+  font-size: 12px;
+  color: rgb(126,126,126)
+}
+
+footer .footer-info .logo-img img {
+  margin-bottom: 10px;
+  width: 80px;
 }
