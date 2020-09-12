@@ -70,6 +70,7 @@ h1 {
   line-height: 100%;
   letter-spacing: -5px;
   color: #000;
+  overflow-wrap: break-word;
 }
 
 h2 {
@@ -206,7 +207,7 @@ footer {
   margin: auto;
   padding: 80px 60px 120px;
   display: flex;
-  width: 1024px;
+  max-width: 1024px;
 }
 
 footer .footer-info {
