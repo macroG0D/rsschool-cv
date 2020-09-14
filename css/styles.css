@@ -32,7 +32,7 @@ a {
   transition: var(--mt25);
 }
 
-a:hover { color: rgb(75,75,75); }
+a:hover { color: rgb(112, 112, 112); }
 
 ul {
   padding: 0;
@@ -102,7 +102,16 @@ h2 {
   display: flex;
 }
 
-.socials ul li {  margin-left: 9px; }
+.socials ul li {
+  transition: var(--mt25);
+  margin-left: 9px;
+}
+
+.socials ul li:hover {
+  /* transform: rotateY(45deg); */
+  transform: rotateZ(45deg);
+  opacity: .6;
+}
 
 .about {  padding-bottom: 120px;  } 
 
@@ -191,7 +200,7 @@ p {
 .education .edlist ul { margin-top: 0;  }
 
 .education .edlist ul li{
-  margin: 5px auto;
+  margin: 0 auto;
   font-size: 36px;
 }
 
@@ -205,15 +214,21 @@ p {
 
 footer {
   margin: auto;
-  padding: 80px 60px 120px;
-  display: flex;
-  max-width: 1024px;
+  padding: 80px 60px 80px;
+  max-width: 100vw;
+  background-color: #000;
 }
 
 footer .footer-info {
   display: flex;
+  margin: auto;
+  color: #fff;
   justify-content: space-between;
-  width: 100%;
+  max-width: 900px;
+}
+.footer-info p {
+  font-size: 24px;
+  line-height: 1;
 }
 
 footer .footer-info .logo-img { text-align: center; }
